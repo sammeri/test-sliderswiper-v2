@@ -47,10 +47,7 @@ body {
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    // transition: all 0.3s ease;
     box-shadow: 15.89px 13.91px 26.52px 0px #59524c;
-
-    // transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     will-change: transform, opacity;
 
     .fill-path {
@@ -77,22 +74,20 @@ body {
     }
 
     &.active {
+        background: #dbdbdb;
+
+        .fill-path {
+            fill: #726965;
+        }
+
+        .fill-stroke {
+            stroke: #726965;
+        }
+
         span {
             opacity: 1;
             z-index: 1;
         }
-    }
-}
-
-.arc-item[data-pos="center"] {
-    background: #dbdbdb;
-
-    .fill-path {
-        fill: #726965;
-    }
-
-    .fill-stroke {
-        stroke: #726965;
     }
 }
 
