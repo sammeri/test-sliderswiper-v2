@@ -468,6 +468,7 @@ body {
 }
 
 .arc-item.active {
+  color: #726965;
   background: #dbdbdb;
 }
 
