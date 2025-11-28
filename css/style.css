@@ -470,7 +470,7 @@ body {
       -ms-user-select: none;
           user-select: none;
   pointer-events: none;
-  text-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.2509803922);
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2509803922);
 }
 
 .arc-item.active {
