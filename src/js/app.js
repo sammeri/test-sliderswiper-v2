@@ -51,7 +51,7 @@ window.addEventListener("load", () => {
       if ([-2, -1, 0, 1, 2].includes(diff)) {
         posIdx = diff + 2;
         opacity = 1;
-        scale = diff === 0 ? 1.15 : 1;
+        scale = diff === 0 ? 1.3 : 1;
       } else {
         if (initMode) {
           posIdx = diff < 0 ? 0 : 4;
