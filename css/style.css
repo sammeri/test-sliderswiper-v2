@@ -417,6 +417,7 @@ body {
 }
 
 .arc-item {
+  padding: 12px;
   position: absolute;
   background: #625b56;
   width: 74px;
